@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+main{
+    background-image: url("assets/images/background.jpg");
+    height: 100vh;
+}
+
+main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0;
+    background-color: black;
+}
