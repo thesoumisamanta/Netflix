@@ -3,14 +3,51 @@
     padding: 0;
 }
 
-main{
+.main{
     background-image: url("assets/images/background.jpg");
-    height: 100vh;
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
 }
 
-main .box{
+.main .box{
     height: 80vh;
     width: 100%;
-    opacity: 0;
+    opacity: 0.44;
     background-color: black;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    height: 60px;
+}
+
+nav img {
+    width: 120px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    flex-direction: column;
+    position: relative;
 }
